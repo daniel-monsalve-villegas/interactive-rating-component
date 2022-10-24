@@ -1,0 +1,42 @@
+:root {
+	/*Primary*/
+	--orange: hsl(25, 97%, 53%);
+
+	/*Neutral*/
+	--lightGrey: hsl(217, 12%, 64%);
+	--mediumGrey: hsl(216, 12%, 54%);
+	--darkBlue: hsl(213, 19%, 18%);
+	--veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+#container {
+	background: linear-gradient(var(--darkBlue) 0%, var(--veryDarkBlue) 95%);
+	width: 95%;
+	padding: 2em;
+	border-radius: 5%;
+}
+
+#icon {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#icon img{
+	width: 50%;
+}
+
+#textContainer {
+	text-align: center;
+	margin-top: 2em;
+}
+
+#textContainet h2 {
+	margin-bottom: 1.5em;
+}
+#textContainer p {
+	color: var(--lightGrey);
+	line-height: 1.3em;
+	font-size: 15px;
+}
+
