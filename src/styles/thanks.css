@@ -34,9 +34,21 @@
 #textContainet h2 {
 	margin-bottom: 1.5em;
 }
+
 #textContainer p {
 	color: var(--lightGrey);
 	line-height: 1.3em;
 	font-size: 15px;
 }
 
+#showVote p {
+	color: var(--orange);
+	background-color: var(--darkBlue);
+	width: 70%;
+	height: 1.5em;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 3.5em;
+	border-radius: 5em;
+	padding-top: 0.5em;
+}

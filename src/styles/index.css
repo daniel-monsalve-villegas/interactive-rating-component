@@ -50,9 +50,10 @@
 	height: 3.6em;
 	border: none;
 	margin-right: 0.5em;
+	cursor: pointer;
 }
 
-footer button {
+#submitDel {
 	background-color: var(--orange);
 	width: 100%;
 	color: white;
@@ -60,4 +61,5 @@ footer button {
 	border-radius: 6em;
 	border: none;
 	height: 3em;
+	cursor: pointer;
 }
