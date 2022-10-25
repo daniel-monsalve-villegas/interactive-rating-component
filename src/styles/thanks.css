@@ -11,9 +11,9 @@
 
 #container {
 	background: linear-gradient(var(--darkBlue) 0%, var(--veryDarkBlue) 95%);
-	width: 95%;
+	width: 60%;
 	padding: 2em;
-	border-radius: 5%;
+	border-radius: 3em;
 }
 
 #icon {
@@ -23,7 +23,7 @@
 }
 
 #icon img{
-	width: 50%;
+	width: 40%;
 }
 
 #textContainer {
@@ -38,17 +38,41 @@
 #textContainer p {
 	color: var(--lightGrey);
 	line-height: 1.3em;
-	font-size: 15px;
+
 }
 
 #showVote p {
 	color: var(--orange);
 	background-color: var(--darkBlue);
-	width: 70%;
-	height: 1.5em;
+	width: 50%;
 	text-align: center;
-	font-size: 15px;
-	margin-left: 3.5em;
+	height: 1.8em;
 	border-radius: 5em;
-	padding-top: 0.5em;
+	padding-top: 0.6em;
+	margin-left: 7.2em;
+}
+
+
+@media (max-width: 375px) {
+	#container {
+		width: 95%;
+		border-radius: 5%;
+	}
+
+	#icon {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#textContainer p {
+		font-size: 15px;
+	}
+
+	#showVote p {
+		width: 70%;
+		height: 1.5em;
+		font-size: 15px;
+		margin-left: 3.5em;
+		padding-top: 0.5em;
+	}
 }

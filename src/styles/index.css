@@ -11,9 +11,9 @@
 
 #container {
 	background: linear-gradient(var(--darkBlue) 0%, var(--veryDarkBlue) 95%);
-	width: 95%;
+	width: 60%;
 	padding: 2em;
-	border-radius: 5%;
+	border-radius: 3em;
 }
 
 #icon {
@@ -33,9 +33,14 @@
 	margin-bottom: 2em;
 }
 
+#textContainer h2 {
+	font-size: 40px;
+}
+
 #textContainer p {
 	color: var(--lightGrey);
 	line-height: 1.3em;
+	font-size: 20px;
 }
 
 #vote {
@@ -46,20 +51,62 @@
 	background-color: var(--darkBlue);
 	border-radius: 50%;
 	color: var(--lightGrey);
-	width: 3.6em;
-	height: 3.6em;
+	width: 4em;
+	height: 4em;
 	border: none;
-	margin-right: 0.5em;
+	margin-right: 2.2em;
 	cursor: pointer;
+	font-size: 20px;
+}
+
+.voteOpt:hover {
+	background-color: var(--orange);
+	color: white;
+}
+
+.voteOpt:focus{
+	background-color: var(--mediumGrey);
+	color: white;
 }
 
 #submitDel {
 	background-color: var(--orange);
 	width: 100%;
 	color: white;
-	font-size: 15px;
+font-size: 20px;
 	border-radius: 6em;
 	border: none;
 	height: 3em;
 	cursor: pointer;
+}
+
+#submitDel:hover {
+	background-color: white;
+	color: var(--orange);
+}
+
+@media (max-width: 375px) {
+	#container {
+		width: 95%;
+		border-radius: 5%;
+	}
+
+	#textContainer h2 {
+		font-size: 30px;
+	}
+
+	#textContainer p {
+		font-size: 16px;
+	}
+
+	.voteOpt {
+		width: 3.6em;
+		height: 3.6em;
+		font-size: 13px;
+		margin-right: 0.5em;
+	}
+
+	#submitDel {
+		font-size: 15px;
+	}
 }
